@@ -26,7 +26,7 @@ Other users are then able to rate and comment on these entries and receive award
 This project was created in two-weeks by the following contributors:
 
 [Andre Pangoni](https://github.com/andreeeeh),  
-[Diego Saborido](https://github.com/diegoss-github),  
+[Diego Sarkissian Saborido](https://github.com/diegoss-github),  
 [Dana Yachini](https://github.com/DanaYachini),  
 [Andrew MacShane](https://github.com/amacsha),  
 [Dominic Stewart-Smith](https://github.com/dominicstewartsmith).  
