@@ -1,26 +1,27 @@
 # NOSTOS - The Concept
 
-Nostos is a community based app focussed around visiting locations in the real world and then writing about your perceptions of the places you go to. The app is framed in a sci-fi theme, with the user taking on the role of an alien researcher visiting Earth.
+👽 Sci-fi community based mobile game where users, in the role of alien researchers, share real-world experiences.
 
-On opening the map the user is presented with several points of interest to visit. After selecting one they will not be able to proceed until physically within a 100m radius of the point (using native GPS tracking). Once at said location, the user is able to write an entry log for this place, being prompted to look around and engage, writing some meaningful content.
+On opening the map the user is presented with several points of interest to visit. After selecting one they will not be able to write an entry until physically within a 100m radius of the point (using native GPS tracking). Once at said location, the user is able to write an entry log for this place, being prompted to look around and engage, writing some meaningful content.
 
 Other users are then able to rate and comment on these entries and receive awards for interacting with the app.
 
-# The Tech
+## The Tech
 
-Front-end  
+### Front-end:
 [React Native](https://reactnative.dev/) in [Typescript](https://www.typescriptlang.org/)
 [Google Places API](https://developers.google.com/maps) for map interactions and place generation  
-[Dall-E](https://openai.com/dall-e-2) for some image generation.
+[Dall-E](https://openai.com/dall-e-2) for image generation
 
-Back-end:  
+### Back-end:  
 [Jest.js](https://jestjs.io/) with Supertest  
 [Prisma](https://www.prisma.io/) for database interactions  
 [AWS](https://aws.amazon.com/) for database hosting  
 
-[Figma](https://www.figma.com/) and [Trello](https://trello.com/) for design and task management.  
+### Design and task management:
+[Figma](https://www.figma.com/) and [Trello](https://trello.com/)
 
-# The Creators
+## The Creators
 
 This project was created in two-weeks by the following contributors:
 
@@ -30,11 +31,11 @@ This project was created in two-weeks by the following contributors:
 [Andrew MacShane](https://github.com/amacsha),  
 [Dominic Stewart-Smith](https://github.com/dominicstewartsmith).  
 
-# Demo Video
+## Demo Video
 
-[Visit YouTube](https://youtu.be/tUzWbjgdQwU)
+[Go to YouTube](https://youtu.be/tUzWbjgdQwU)
 
-# Screenshots
+## Screenshots
 ![alt](/screenshots/ship-view.png)
 ![alt](/screenshots/world-map.png)
 ![alt](/screenshots/entry-list.png)
@@ -42,7 +43,7 @@ This project was created in two-weeks by the following contributors:
 ![alt](/screenshots/entry-view.png)
 ![alt](/screenshots/profile-page.png)
 
-# Instructions for running
+## Instructions for running
 
 In ./server:
 Create a .env file, following the example of .env.example.
@@ -53,4 +54,3 @@ In ./client you will also need an .env file containing your local IP address.
 Then run `npm i`
 
 Finally from ./server you can run `npm run dev` to create the server, and simultaneously from ./client run `npm run start` to build the app and open it on Expo.
-# nostos
