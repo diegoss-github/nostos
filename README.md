@@ -9,7 +9,7 @@ Other users are then able to rate and comment on these entries and receive award
 ## The Tech
 
 ### Front-end:
-[React Native](https://reactnative.dev/) in [Typescript](https://www.typescriptlang.org/)
+[React Native](https://reactnative.dev/) in [Typescript](https://www.typescriptlang.org/)\
 [Google Places API](https://developers.google.com/maps) for map interactions and place generation  
 [Dall-E](https://openai.com/dall-e-2) for image generation
 
